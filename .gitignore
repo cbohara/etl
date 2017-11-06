@@ -1,0 +1,4 @@
+venv/
+src/etl.egg-info/
+.tox/
+.coverage
