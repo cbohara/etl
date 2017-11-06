@@ -5,5 +5,5 @@ src/etl.egg-info/
 src/extract/__pycache__/
 src/transform/__pycache__/
 src/load/__pycache__/
-tests/unit/__pycache__/
 tests/func/__pycache__/
+tests/unit/__pycache__/
