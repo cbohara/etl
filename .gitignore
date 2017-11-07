@@ -4,7 +4,10 @@ src/etl.egg-info/
 .coverage
 .cache
 src/extract/__pycache__/
+src/extract/__init__.pyc
 src/transform/__pycache__/
+src/transform/__init__.pyc
 src/load/__pycache__/
+src/load/__init__.pyc
 tests/func/__pycache__/
 tests/unit/__pycache__/
