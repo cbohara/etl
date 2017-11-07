@@ -2,7 +2,7 @@ import pytest
 from extract import single_file
 
 
-@pytest.fixture(params=comma_sep_csv)
-def test_comma_sep_csv_content():
+def test_comma_sep_csv_content(comma_sep_csv):
     """Ensure the header is read from the input file"""
-    print(csv)
+    csv = comma_sep_csv.read()
+    assert csv == 'apple,banana,cashew'
