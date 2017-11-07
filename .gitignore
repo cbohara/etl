@@ -2,6 +2,7 @@ venv/
 src/etl.egg-info/
 .tox/
 .coverage
+.cache
 src/extract/__pycache__/
 src/transform/__pycache__/
 src/load/__pycache__/
